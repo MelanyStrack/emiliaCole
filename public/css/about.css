@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,600&display=swap');
+
+body{
+    background-image: url(../img/emilia-about.jpg);
+    background-size: 75% 100%;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+header {
+    text-align: right ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#navegador li {
+    display: inline;
+    padding-right: 1%;
+    border-left: 2px solid black;
+    
+}
+#redes li {
+    display: inline;
+    padding-top: 250px;
+}
+nav{
+    margin-top: 2%;
+}
+#navegador{
+    background-color: rgba(255,255,255,40%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#redes{
+    padding-bottom: 30px;
+}
