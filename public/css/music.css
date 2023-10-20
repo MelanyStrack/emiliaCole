@@ -1,50 +1,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,600&display=swap');
 
-body{
+.music_body{
     background-image: url(../img/emilia-music-top.jpg);
     background-size: 100% 6.5%;
     background-position: center top;
     background-repeat: no-repeat;
 }
-header {
-    text-align: right ;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    color: black;
+
+.music_body h1{
+    font-size: 65px;
 }
 
-#navegador li {
-    display: inline;
-    padding-right: 1%;
-    border-left: 2px solid black;
-    
-}
-#redes li {
-    display: inline;
-    padding-top: 250px;
-}
-nav{
-    margin-top: 2%;
-}
-#navegador{
-    background-color: rgba(255,255,255,40%);
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-#redes{
-    padding-bottom: 30px;
-}
-
-
-h1 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 65px ;
-}
-h4{
+.music_body h4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
+    color: black;
 }
 
 .destacado li{
@@ -53,25 +24,21 @@ h4{
     opacity: 40%;
     font-weight: bold;
 }
-a {
-    text-decoration: none;
-    color: black;
-}
 
-h2 {
+.music_body h2 {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 25px;
 }
-#album{
+#album {
     margin-top: 5%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
 
 }
 
-h6{
+.music_body h6{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
     font-size: 15px;
@@ -80,7 +47,12 @@ h6{
     margin-bottom: 5%;
 }
 
-p{
+.music_body ol li{
+    line-height: 30px;
+}
+
+
+.music_body p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
 }
