@@ -11,6 +11,10 @@
         border-left: 1px solid black;
 }
 
+.contact_nav {
+    border-right: 1px solid black;
+}
+
 .navbar_horizontal ul{
     background-color: rgba(255,255,255,40%);
     padding-top: 15px;
@@ -52,4 +56,24 @@
 
 .redes_index {
     text-align: left;
+}
+
+.navbar_horizontal_music ul li {
+    display: inline;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    border-left: 1px solid black;
+}
+
+.navbar_horizontal_music ul{
+    background-color: rgba(255,255,255,40%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 4px;
+    margin-top: 26px;
+    margin-left: 5px;
+    margin-right: 4px;
+}
+.navbar_horizontal_music{
+    padding-top:2%;
 }
